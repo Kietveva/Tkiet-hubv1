@@ -123,8 +123,46 @@ coroutine.wrap(NERMBF_fake_script)()
 })
 
 Tab:AddButton({
-	Name = "AirHub",
+	Name = "Aimbot",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
 	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Game",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddLabel("Game Script")
+
+Tab:AddButton({
+	Name = "W azureV2 (Blox Fruit",
+	Callback = function()
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+
+Tab:AddButton({
+	Name = "sol's rng",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Blade ball (X7)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/main/Game/AutoParryOnly"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Pet Simulator 99 (Key System)",
+	Callback = function()
+loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+	end    
+})
+
+Tab:AddLabel("more soon!")
