@@ -1,12 +1,13 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Compilation Script", HidePremium = false, IntroText = "⭐️Compilation Script⭐️", SaveConfig = true, ConfigFolder = "RobloxScript"})
+local Window = OrionLib:MakeWindow({Name = "⭐️Compilation Script⭐️", HidePremium = false, IntroText = "⭐️Compilation Script⭐️", SaveConfig = true, ConfigFolder = "RobloxScript"})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
+Tab:AddLabel("Welcome")
+Tab:AddLabel("Made by Tkiet")
 Tab:AddLabel("universal script here")
 Tab:AddButton({
 	Name = "Fly Script",
@@ -123,7 +124,7 @@ coroutine.wrap(NERMBF_fake_script)()
 })
 
 Tab:AddButton({
-	Name = "Aimbot",
+	Name = "Aimbot (Airhub)",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
 	end    
@@ -161,7 +162,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/m
 })
 
 Tab:AddButton({
-	Name = "Pet Simulator 99 (Key System)",
+	Name = "Pet Simulator 99 (Key System!)",
 	Callback = function()
 loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
 	end    
