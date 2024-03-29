@@ -169,3 +169,4 @@ loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
 })
 
 Tab:AddLabel("more soon!")
+Tab:AddLabel("Sorry I can't update because I'm busy with school")
